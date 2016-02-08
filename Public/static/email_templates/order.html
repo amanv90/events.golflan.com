@@ -1,0 +1,72 @@
+<div id="content-container" style="background-color: #FFFFFF !important; font-family:calibri;border: 1px solid #d4d2d2; border-radius: 5px; margin: 0px auto; width: 80%; margin-bottom: -20px;">
+
+    <div id="content" style="padding: 0 20px 10px;">
+
+        <br />
+        <br />
+        <p style="font-size: 14px; font-weight: bold; margin-top: 20px;clear:both;">Hello Mr, #NAME# ! </p>
+
+        <hr />
+
+        <p style="font-size: 14px;">
+            Thank you for ordering from GolfLAN.com!<br />
+            <br />
+
+            We have received your order <b>#INVOICE_ID#</b> placed on <b>#ORDER_DATE#</b> amounting to <b><span class="WebRupee">INR</span> #TOTAL_AMOUNT#</b> and further processing is subjected to receipt of payment.
+            <br />
+            Your order will be shipped from our warehouse within 24 hours. Once your order has been shipped, we will send you an email with the expected delivery date.<br />
+            <br />
+            Your order details are as follows:<br />
+            <br />
+
+            <div style="width: 100%; float: right;">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td style="background-color: #CCCCCC; color: #000000;">S.no</td>
+                            <td style="background-color: #CCCCCC; color: #000000;">Product Name and Attributes</td>
+                            <td style="background-color: #CCCCCC; color: #000000;">Price</td>
+                            <td style="background-color: #CCCCCC; color: #000000;">Quantity</td>
+                            <td style="background-color: #CCCCCC; color: #000000;">Total</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        #ORDER_DETAILS#
+<!--                        @foreach (var pro in CartSnapshot.lstProduct.Select((x, i) => new { Data = x, Index = i + 1 }))
+                        {
+                            float TotalPrice = pro.Data.Quantity * float.Parse(pro.Data.PriceAfterDisc);
+                            <tr>
+                                <td style="border: 1px solid #CCCCCC; height: 18px; text-align: center;">@pro.Index</td>
+                                <td style="border: 1px solid #CCCCCC; height: 18px; text-align: center;"><b>@pro.Data.ProductName</b><br />@pro.Data.Attributes</td>
+                                <td style="border: 1px solid #CCCCCC; height: 18px; text-align: center;"><span class="WebRupee">₹</span> @pro.Data.PriceAfterDisc</td>
+                                <td style="border: 1px solid #CCCCCC; height: 18px; text-align: center;">@pro.Data.Quantity</td>
+                                <td style="border: 1px solid #CCCCCC; height: 18px; text-align: center;"><span class="WebRupee">₹</span> @TotalPrice</td>
+                            </tr>
+                        }-->
+                    </tbody>
+                </table>
+
+                <div id="OrderSummaryDiv" style="margin-top: -20px;">
+
+                    <p style="background: none repeat scroll 0 0 #CCCCCC; color: #000000; display: block; font-size: 14px; padding: 4px 10px; text-align: right; width: 95%;">Discount Coupon Used: <b>#COUPON_USED#</b></p>
+                    <p style="background: none repeat scroll 0 0 #CCCCCC; color: #000000; display: block; font-size: 14px; padding: 4px 10px; text-align: right; width: 95%;">Order Total: <b><span class="WebRupee">₹</span>#ORDER_TOTAL#</b></p>
+                    <p style="background: none repeat scroll 0 0 #CCCCCC; color: #000000; display: block; font-size: 14px; padding: 4px 10px; text-align: right; width: 95%;">Shipping: <b>FREE(Only in DELHI NCR)</b></p>
+                </div>
+
+            </div>
+
+            If you need any assistance or have any questions, feel free to contact us by emailing us at <a href="mailto:customer.care@GolfLAN.com">customer.care@GolfLAN.com</a> or call us at 1800-208-7899.<br />
+
+            Expect to have your order soon!<br />
+            <br />
+
+            Happy Golfing!<br />
+            <br />
+
+            Team GolfLAN<br />
+            India's Leading Online Golf Consulting Company
+        </p>
+    </div>
+
+</div>
