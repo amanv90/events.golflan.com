@@ -388,7 +388,7 @@ name="GCName" placeholder="Home Course" value="Golfshire Club"> <td>12-June-16</
 							       <table style="width:100%">  
 									  <tr>
    <form class="" action="/gplRegister" method="post"><input class="hidden" type="text"
-name="date" placeholder="Home Course" value="21-Feb-2016"><input class="hidden" type="text"
+name="date" placeholder="Home Course" value="28-Feb-2016"><input class="hidden" type="text"
 name="GCName" placeholder="Home Course" value="Golden Greens Golf Course"> <td>21-February-16</td>
     <td>North</td>        
     <td class="thirdTd">1st Qualifier</td>
