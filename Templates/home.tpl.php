@@ -248,7 +248,7 @@ th, td {
    <form class="" action="/gplRegister" method="post"><input class="hidden" type="text"
 name="date" placeholder="Home Course" value="21-Feb-2016"><input class="hidden" type="text"
 name="GCName" placeholder="Home Course" value="Golden Greens Golf Course"> 
-	<td class="firstTd">21-Feb-16</td>
+	<td class="firstTd">28-Feb-16</td>
     <td>North</td>        
     <td class="thirdTd">1st Qualifier</td>
     <td>Golden Greens Golf Course</td>
